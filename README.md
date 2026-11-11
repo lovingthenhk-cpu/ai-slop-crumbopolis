@@ -21,3 +21,7 @@ HTML/CSS/Canvas 2D、requestAnimationFrame、ステートマシン型エージ�
 自治体の地形、道路、税収、財政履歴を localStorage に保存。セーブデータには機密情報を含まない。
 
 MIT License. すべてのUIと図形を自作。
+
+## 開発・回帰テスト
+Node.js 18以降があれば、追加パッケージ不要で `node --test tests/history.test.cjs` を実行できます。
+財政履歴の45件上限と、保存データを復元した後の記録間隔を検証します。
